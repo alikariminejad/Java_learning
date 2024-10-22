@@ -4,9 +4,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args){
-//        int[][] numbers = new int[2][3];  // this array has two dimensions, 2 rows and 3 columns
-        //        numbers[0][0] = 2;
-        int[][] numbers = {{1, 2, 3}, {4, 5, 6}};
-        System.out.println(Arrays.deepToString(numbers));
+        final float PI = 3.14F; //constants must have final in defining them and also using captial words for naming
+        final byte X = 26;
     }
 }
