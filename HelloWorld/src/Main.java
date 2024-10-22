@@ -4,7 +4,16 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args){
-        final float PI = 3.14F; //constants must have final in defining them and also using captial words for naming
-        final byte X = 26;
+        // + - * / %
+        float result = (float) 35 / (float) 8;
+        System.out.println(result);
+        int x = 1;
+        int w = 1;
+        int y = ++x;
+        int z = w++;
+        System.out.println(y); // y = 2, x = 2
+        System.out.println(z); // z = 1 , w = 2
+        // x = x + 1  == x += 1
+        // x = x - 1  == x -= 1
     }
 }
